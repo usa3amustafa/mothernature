@@ -109,6 +109,9 @@ body {
 }
 
 .header-desc {
+  font-size: 3rem;
+  font-weight: 600;
+
   margin-bottom: 2rem;
   line-height: 1.6;
   text-transform: capitalize;
