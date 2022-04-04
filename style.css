@@ -144,10 +144,6 @@ body {
   margin-bottom: 3rem;
 }
 
-.header-img-individual {
-  /* justify-self: flex-start; */
-}
-
 .header-img-individual > img {
   border-radius: 10px;
   box-shadow: 10px 10px 20px 2px rgba(255, 255, 255, 0.1);
@@ -246,6 +242,7 @@ iframe {
 
 /* footer */
 .footer-text {
+  color: var(--white-clr);
   text-align: center;
   padding: 2rem 0;
   text-transform: uppercase;
@@ -311,6 +308,10 @@ iframe {
   .nav-links {
     justify-content: flex-end;
     gap: 2rem;
+  }
+
+  .header-title-individual {
+    font-size: 2.5rem;
   }
 
   .btns {
